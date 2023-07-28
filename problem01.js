@@ -11,12 +11,12 @@ function calculateDiscount(purchaseAmount) {
 
     const discountAmount = purchaseAmount * discount;
     const discountedAmount = purchaseAmount - discountAmount;
-    
+
     console.log('Total purchase amount: $ ' + purchaseAmount);
     console.log('Discounted amount: $ ' + discountedAmount);
     console.log('Discount amount: $ ' + discountAmount.toFixed(2));
 
 }
 calculateDiscount(150)
-calculateDiscount(50)
+calculateDiscount(49)
 calculateDiscount(201)
